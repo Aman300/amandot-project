@@ -10,6 +10,7 @@ import List from './component/list'
 import Edit from './component/edit'
 import About from './component/about'
 import Footer from './component/footer'
+import Service from './component/Service'
 
 
 
@@ -24,6 +25,7 @@ function App() {
       <Route exact path="/list" element={<List />} />
       <Route exact path="/edit/:id" element={<Edit />} />
       <Route exact path="/about" element={<About />} />
+      <Route exact path="/Service" element={<Service />} />
     </Routes>
     <Footer/>
 </Router>
