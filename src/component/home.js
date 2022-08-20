@@ -1,7 +1,8 @@
 import React from 'react'
-import pic from './img/wallpaper.jpg';
+import pic from './img/Picture1.png';
 
 import Form from './form';
+import Tech from './tech';
 
 
 
@@ -15,30 +16,30 @@ function Home() {
         <>
             <br></br>
             <br></br>
-            <br></br>
-            <div className="container-fluid bg-white">
+            <div className="container-fluid background-color">
                 <div className='row'>
                     <div className='col-md-6 col-12'>
                         <div className='container padding'>
-                            <h1>APS</h1>
+                            <h1>AMANDOT</h1>
                             <h2>Development</h2>
-                            <p>Web programming, also known as web development, is the creation of dynamic web applications. Examples of web applications are social networking sites like Facebook or e-commerce sites like Amazon. The good news is that learning web development is not that hard!</p>
+                            <p style={{color: "white"}}>Web programming, also known as web development, is the creation of dynamic web applications. Examples of web applications are social networking sites like Facebook or e-commerce sites like Amazon. The good news is that learning web development is not that hard!</p>
                             <div className='bnt'>
-                                <button type="submit" className="btn text-white">Know More</button>
+                                <button type="submit" className="btn text-white ">Know More</button>
+                                <button type="submit" className="btn text-white ml-4">Join us</button>
                             </div>
                         </div>
                     </div>
-                    <div className='col-md-6  col-12'>
+                    <div className='col-md-6 col-12'>
                         <img className='w-100' src={pic} alt='img'></img>
                     </div>
                 </div>
             </div>
             <div className='container-fluid bg-white'>
                 <h6 className='display-4 text-center'>Our servises</h6>
-                <div className='row text-center p-4'>
+                <div className='row text-center padding'>
                     <div className='col-xl-3 col-12'>
                         <br></br>
-                        <img src='https://santophy.com/static/assets/images/web-development%20(2).svg' alt='img'></img> 
+                        <img src='https://santophy.com/static/assets/images/web-development%20(2).svg' alt='img'></img>
                         <h4>Web Development</h4>
                         <h5>We provide thoughtful and effective web page designs created by our professionals.</h5>
                     </div>
@@ -64,12 +65,12 @@ function Home() {
                 <div className='row p-4'>
                     <div className='col-xl-6 col-12 text-center'>
                         <br></br>
-                        <img src='https://images.pexels.com/photos/7605201/pexels-photo-7605201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'style={{borderRadius: "30px"}} className='w-75' alt='img'></img> 
+                        <img src='https://images.pexels.com/photos/7605201/pexels-photo-7605201.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1' style={{ borderRadius: "30px" }} className='w-75' alt='img'></img>
                     </div>
                     <div className='col-xl-6 col-12'>
-                        <h2 className='text-white text-center'>why you need website</h2>
+                        <h2 className='text-center'>why you need website</h2>
                         <br></br>
-                        <div className='text-size'>
+                        <div className=' text-white text-size'>
                             <ol>
                                 <li>Having a website will attract new customers to your business and make you more money.</li>
                                 <li>Add instant credibility to your business simply by having a website.</li>
@@ -81,13 +82,10 @@ function Home() {
                     </div>
                 </div>
             </div>
+            <Tech/>
 
-            <Form/>
-
-
-
-
-
+            <Form />
+            
         </>
 
     )

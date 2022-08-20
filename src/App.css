@@ -3,7 +3,7 @@
 
 
 
-@media (min-width: 1440px){
+@media (min-width: 1200px){
 
   .background-color{
       background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
@@ -34,6 +34,16 @@
       padding: 0;
       margin-top: 20px;
   }
+
+  h4{
+    font-weight: bold;
+    color: #182848;
+  }
+  
+  h5{
+    font-size: 20px;
+  }
+
   
   .btn{
       padding: 10px 40px;
@@ -104,12 +114,31 @@
           right:0;
           background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
       }
+      .logo-space{
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        
+      }
+      
+      
 }
 
-@media screen and (max-device-width: 481px) and (max-device-width: 768px) { 
+@media screen and (max-device-width: 480px) { 
+    
+
+    .logo-space{
+        padding: 20px;
+      }
+
+    .padding{
+        padding: 40px;        
+        
+    }
 
   .background-color{
-      background: linear-gradient(0deg, #FC466B 0%, #3F5EFB 100%);
+    background: linear-gradient(90deg, #FC466B 0%, #3F5EFB 100%);
   }
 
   .text-size{
@@ -130,7 +159,7 @@
     }
   
   h1{
-      font-size: 70px;
+      font-size: 50px;
       color: rgb(23, 10, 118);
       font-weight: 800;
   }
@@ -142,9 +171,17 @@
       font-size: 13px;
   }
 
-  h1, h2, p, .bnt{
+  h1, h2, p{
       padding: 0;
       margin-top: 10px;
+      text-align: center;
+  }
+  h4{
+    font-weight: bold;
+  }
+  
+  h5{
+    font-size: 15px;
   }
   .btn{
       display: flex;
@@ -155,11 +192,10 @@
       border-radius: 50px;
       font-family: 'Montserrat Alternates', sans-serif;
   }
-  .navbar-light .navbar-toggler{
-      background-color: white
-  }
-  .w-100{
-      margin-top: 20px;
+  .bnt{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   .card {
@@ -186,14 +222,15 @@
       align-items: center;
       justify-content: space-between;
   }
-  .navbar-expand-lg .navbar-nav .nav-link:hover{
-      color: rgb(245, 228, 228);
-      font-family: 'Montserrat Alternates', sans-serif;
-  }
   footer{
       position:relative;
       left:0;
       bottom:0;
       right:0;
+      background: linear-gradient(90deg, #4b6cb7 0%, #182848 100%);
   }
+  
+
 }
+
+
