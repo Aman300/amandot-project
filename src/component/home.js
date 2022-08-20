@@ -41,22 +41,22 @@ function Home() {
                     <div className='col-xl-3 col-12'>
                         <br></br>
                         <img src='https://santophy.com/static/assets/images/web-development%20(2).svg' alt='img'></img>
-                        <h4>Web Development</h4>
+                        <h4 className='Rohini'>Web Development</h4>
                         <h5>We provide thoughtful and effective web page designs created by our professionals.</h5>
                     </div>
                     <div className='col-xl-3 col-12'>
                         <img src='https://santophy.com/static/assets/images/innovation.svg' alt='img'></img>
-                        <h4>UI UX Design</h4>
+                        <h4 className='Rohini'>UI UX Design</h4>
                         <h5>We provide elegant UI&UX, bold typography, intuitive navigation and uniquely custom designed with quality content.</h5>
                     </div>
                     <div className='col-xl-3 col-12'>
                         <img src='https://santophy.com/static/assets/images/apps-develop.svg' alt='img'></img>
-                        <h4>Mobile App Development</h4>
+                        <h4 className="Rohini">Mobile App Development</h4>
                         <h5>We offer world-class mobility solutions and form your concepts into a revolutionary mobile app.</h5>
                     </div>
                     <div className='col-xl-3 col-12'>
                         <img src='https://santophy.com/static/assets/images/aiml.svg' alt='img'></img>
-                        <h4>AI/ML Development</h4>
+                        <h4 className="Rohini">AI/ML Development</h4>
                         <h5>We offer the foremost exciting technologies that one would have ever come upon. It offers the computer that makes it a lot of the same as humans.</h5>
                     </div>
                 </div>
