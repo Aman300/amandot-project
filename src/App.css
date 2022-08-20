@@ -121,12 +121,28 @@
         justify-content: space-around;
         
       }
+      .carousel-control-next-icon , .carousel-control-prev-icon{
+        background-image: none;
+    }
+    .card-text{
+      padding: 30px;
+    }
       
       
 }
 
 @media screen and (max-device-width: 480px) { 
+
+  .card-text{
+    padding: 5px;
+    font-size: 7px;
+  }
+   
     
+
+  .carousel-control-next-icon , .carousel-control-prev-icon{
+    background-image: none;
+}
 
     .logo-space{
         padding: 20px;

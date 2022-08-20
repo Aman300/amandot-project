@@ -2,13 +2,9 @@ import React from "react";
 
 import '../App.css';
 
-function About() {
+function Ourteam() {
     return (
         <>
-        <br></br>
-        <br></br>
-        <br></br>
-        
             <div className="container-fluid background-color p-5">
                 <div className="row">
                     <div className="col-xl-12 text-center">
@@ -49,6 +45,6 @@ function About() {
     )
 }
 
-export default About;
+export default Ourteam;
 
 

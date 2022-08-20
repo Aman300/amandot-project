@@ -16,7 +16,7 @@ function navbar() {
                 <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div className="navbar-nav ml-auto">
                         <Link className="nav-item nav-link text-white" to="/">Home</Link>
-                        <Link className="nav-item nav-link text-white" to="/list">Portofolio</Link>
+                        <Link className="nav-item nav-link text-white" to="/portofolio">Portofolio</Link>
                         <Link className="nav-item nav-link text-white" to="/about">About Us</Link>
                         <Link className="nav-item nav-link text-white" to="/about">Contact</Link>
                         <Link className="nav-item nav-link text-white" to="/Service">Service</Link>
@@ -24,6 +24,7 @@ function navbar() {
                     <Link to="/" className="btn text-white ">Sign in</Link>
                 </div>
             </nav>
+
 
         </>
 

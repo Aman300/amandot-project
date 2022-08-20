@@ -3,6 +3,7 @@ import pic from './img/Picture1.png';
 
 import Form from './form';
 import Tech from './tech';
+import Ourteam from './ourteam';
 
 
 
@@ -83,8 +84,8 @@ function Home() {
                 </div>
             </div>
             <Tech/>
-
-            <Form />
+            <Ourteam/>
+            <Form/>
             
         </>
 
