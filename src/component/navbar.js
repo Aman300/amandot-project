@@ -21,7 +21,7 @@ function navbar() {
                         <Link className="nav-item nav-link text-white" to="/about">Contact</Link>
                         <Link className="nav-item nav-link text-white" to="/Service">Service</Link>
                     </div>
-                    <Link to="/" className="btn text-white ">Sign in</Link>
+                    <Link to="/sign" className="btn text-white ">Sign in</Link>
                 </div>
             </nav>
 
